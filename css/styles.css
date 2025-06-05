@@ -1,4 +1,7 @@
 /* ❗❗❗ DO NOT EDIT OR ADD ANY CODE IN THIS FILE ❗❗❗*/
+.debug {
+  outline: red solid 1px;
+}
 
 * {
   margin: 0;

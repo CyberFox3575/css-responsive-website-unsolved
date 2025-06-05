@@ -29,6 +29,10 @@
   .phones :hover {
     color: white;
   }
+
+  .trigram {
+    display: none;
+  }
 }
 
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
@@ -92,9 +96,11 @@
 
   .footer-contacts {
     flex-wrap: wrap;
-    gap: 200px;
-    align-items: space-between;
     justify-content: center;
+  }
+
+  .top-navigation ul {
+    display: none;
   }
 }
 
@@ -161,5 +167,13 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+  }
+
+  .top-navigation ul {
+    display: none;
+  }
+
+  .teammates-content .subtext {
+    width: 100%;
   }
 }
